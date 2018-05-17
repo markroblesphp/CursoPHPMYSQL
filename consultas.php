@@ -2,6 +2,7 @@
 //Autor: Claudio Morales
 //Fecha: 14 mayo 2018
 //Video del Webinar: https://www.facebook.com/ComunidadDePeHPe/videos/1528026390640819/
+// Mark
 define("SERVER",      "localhost");
 define("USUARIO",     "root");
 define("PASS",        "");
