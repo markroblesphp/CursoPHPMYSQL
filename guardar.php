@@ -59,9 +59,9 @@ class ClaseBaseDatos
             }
         }
       public function nuevaNoticia()
-        {   
+        {  
 	    date_default_timezone_set('America/Mexico_City');
-	    $fecha=date('Y-M-D G:i:s');
+	    $fecha = date("Y-m-d H:i:s");
             $editores = $_POST["editores"];   // Autor seleccionado en la vista que obtuvimos de nuestra bd 
             $editores = htmlentities($editores);
         
