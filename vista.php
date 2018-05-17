@@ -49,7 +49,7 @@ class vista
                             <div class="row">
                              <h4 class="panel-title">
                             <span class="glyphicon glyphicon-file">
-                            </span>Bienvenido al sistema de publicaciones.</a>
+                            </span>A continuación te mostramos el detalle de la noticia.</a>
                         </h4></div> </div></div> </div></div> ';
     }
   private function metodoDetalleNoticia()
