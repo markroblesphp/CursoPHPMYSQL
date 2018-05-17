@@ -3,6 +3,7 @@
 //Fecha: 11 mayo 2018
 //Video del Webinar: 
 //Tarea Eliminar o quitar las instrucciones de tipo echo
+// Mark
 define("SERVER",      "localhost");
 define("USUARIO",     "root");
 define("PASS",        "");
