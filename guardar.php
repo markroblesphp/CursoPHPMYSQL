@@ -60,17 +60,16 @@ class ClaseBaseDatos
         }
       public function nuevaNoticia()
         {   
+	    date_default_timezone_set('America/Mexico_City');
+	    $fecha=date('Y-M-D G:i:s');
             $editores = $_POST["editores"];   // Autor seleccionado en la vista que obtuvimos de nuestra bd 
             $editores = htmlentities($editores);
         
-            $titulo	 = $_POST["titulonoticia"];
+            $titulo = $_POST["titulonoticia"];
             $titulo = htmlentities($titulo);
         
             $textopublicacion = $_POST["cuerponoticia"];
             $textopublicacion = htmlentities($textopublicacion);
-        
-            date_default_timezone_set('America/Mexico_City');
-	    $fecha=date('Y-M-D G:i:s');
             $sql = 
             "insert into publicacion 
             (email_autor, fechahora, titulo, textopublicacion) 
