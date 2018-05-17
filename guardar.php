@@ -69,7 +69,8 @@ class ClaseBaseDatos
             $textopublicacion = $_POST["cuerponoticia"];
             $textopublicacion = htmlentities($textopublicacion);
         
-            $fecha = date("Y-m-d H:i:s");
+            date_default_timezone_set('America/Mexico_City');
+	    $fecha=date('Y-M-D G:i:s');
             $sql = 
             "insert into publicacion 
             (email_autor, fechahora, titulo, textopublicacion) 
