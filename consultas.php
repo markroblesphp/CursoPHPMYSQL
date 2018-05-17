@@ -4,7 +4,7 @@
 //Video del Webinar: https://www.facebook.com/ComunidadDePeHPe/videos/1528026390640819/
 define("SERVER",      "localhost");
 define("USUARIO",     "root");
-define("PASS",        "chanito");
+define("PASS",        "");
 define("NOMBREBASE",  "curso");
 class ClaseConsultasBase
   {
