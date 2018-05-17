@@ -5,7 +5,7 @@
 //Tarea Eliminar o quitar las instrucciones de tipo echo
 define("SERVER",      "localhost");
 define("USUARIO",     "root");
-define("PASS",        "chanito");
+define("PASS",        "");
 define("NOMBREBASE",  "curso");
 class ClaseBaseDatos
   {
