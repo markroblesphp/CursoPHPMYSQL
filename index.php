@@ -35,7 +35,6 @@ include ('vista.php')
       $opcion = (isset($_GET["o"])) ? $_GET["o"] : "inicio";
       $objeto = new vista($opcion);
     ?>
-      
-    </main>
+  </main>
   </body>
 </html>
