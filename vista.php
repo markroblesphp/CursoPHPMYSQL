@@ -127,7 +127,7 @@ class vista
                 echo '<textarea rows="4" cols="50" class="form-control" name="cuerponoticia" id="idcuerponoticia" required placeholder="Cuerpo de la noticia" ></textarea>';
                 echo '<br>';
                 
-              echo '<input name"guardar" type="submit" value="Guardar Nueva Noticia">';
+              echo '<input class="btn btn-default btn-sm" name"guardar" type="submit" value="Guardar Nueva Noticia">';
               
             echo "</form></div>";
   if(isset($_GET['mensaje'])) {
